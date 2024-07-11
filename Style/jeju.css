@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+a:link, a:visited, a:active {
+    color: #ffffff;
+} 
+a:hover {
+    color: #7844e8;
+}
+
 body {
     font-family: 'Noto Sans KR', sans-serif;
     width: 480px;

@@ -16,12 +16,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<<<<<<< HEAD
     
     <style>
+      * {
+          box-sizing: border-box;
+      }
+      a:link, a:visited, a:active {
+          color: #ffffff;
+      } 
+      a:hover {
+          color: #7844e8;
+      }
+
+
       .card {
         /* 배경 이미지 넣기 */
-        background-image: url('/Images/dog.png');
+        background-image: url('./Images/dog.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -34,7 +44,7 @@
         /* 반투명한 그라데이션 위에 이미지 합치기 (자주 쓰임)*/
         background-image: 
           linear-gradient(90deg, rgba(159, 84, 209, 0.9) 20%, rgba(159, 84, 209, 0.1)),
-          url('/Images/dog.png');
+          url('./Images/dog.png');
         
         /* 그림자 효과 - 가로PX 세로PX 흐림효과PX 퍼지는크기PX 색깔 */
         /* https://cssgenerator.org/box-shadow-css-generator.html */
@@ -60,64 +70,102 @@
         font-weight: 800;
       }
 
+      .back {
+        position: fixed;
+        margin: 10px 20px;
+        color: #ffffff;
+        background-color: #7844e8;
+        border: 1px solid #7844e8;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-weight: 700;
+      }
 
 
+      .header {
+        background-color: #f3f3f3;
+        margin-bottom: 32px;
+        padding: 64px 0px 32px;
+      }
+
+      .header-container {
+        margin: 0 auto;
+        width: 600px;
+      }
+
+      .header-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 46px;
+        margin: 8px 0;
+      }
+      .header-title > span{
+        color:#7844e8;
+        font-weight: 900;
+      }
+
+      .header-description {
+        color: #a6a6a6;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        margin: 8px 0;
+      }
       #desert {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url('./Images/entry04.png');
-}
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+          url('./Images/entry04.png');
+      }
 
-#paragliding {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url('./Images/entry03.png');
-}
+      #paragliding {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+          url('./Images/entry03.png');
+      }
 
-#ducks {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url('./Images/entry02.png');
-}
+      #ducks {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+          url('./Images/entry02.png');
+      }
 
-#versailles {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url('./Images/entry01.png');
-}
+      #versailles {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+          url('./Images/entry01.png');
+      }
 
-.activity {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #ffffff;
-  height: 185px;
-  margin: 24px auto;
-  padding: 40px;
-  width: 520px;
-}
+      .activity {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        height: 185px;
+        margin: 24px auto;
+        padding: 40px;
+        width: 520px;
+      }
 
-.activity-title {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 29px;
-  margin: 0;
-}
+      .activity-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 29px;
+        margin: 0;
+      }
 
-.activity-date {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 8px 0;
-}
+      .activity-date {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 8px 0;
+      }
 
-.activity-join {
-  background: rgba(0, 0, 0, 0.15);
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
-  margin: 22px 0;
-  padding: 8px 24px;
-}
+      .activity-join {
+        background: rgba(0, 0, 0, 0.15);
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 22px 0;
+        padding: 8px 24px;
+      }
       
     </style>
-  </head>
-=======
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9MEHKXW49"></script>
     <script>
@@ -130,33 +178,37 @@
 
 </head>
 
->>>>>>> 7cfccd9714f92fac37acb5c0382de702036adaeb
 
-  <body style="color: #737373; font-family: Poppins, 'Noto Sans KR', sans-serif; margin: 0">
-    <div style="background-color: #7542e0; text-align: center; padding: 20px">
-      <h1 style="color: #ffffff; font-weight: 300">Weekly <span style="font-weight: 700">Codeit<span></h1>
-      <p style="color: #c1b7ff">금요일에 만나는 코딩 한 스푼.</p>
+  <body style="position: relative; color: #737373; font-family: Poppins, 'Noto Sans KR', sans-serif; margin: 0">
+    <button class="back">
+      <a href="./index.html">뒤로</a>
+    </button>   
+    <div class="header">
+      <div class="header-container">
+        <h1 class="header-title">Enjoy a variety of <span>ART-WORK</span></h1>
+        <p class="header-description">여행에 다채로운 색을 입혀 줄 흥미로운 액티비티를 찾아보세요.</p>
+      </div>
     </div>
 
     <div id="desert" class="activity">
-      <h2 class="activity-title">낙타와 함께하는 사막 여행</h2>
+      <h2 class="activity-title">제주도를 배경으로 하는, 홍보 페이지</h2>
       <p class="activity-date">2025.07.26. ~ 2025.07.27.</p>
-      <a class="activity-join">시작하기</a>
+      <a class="activity-join" href="./Portfolio-pages/jeju.html">감상하기</a>
     </div>
     <div id="paragliding" class="activity">
-      <h2 class="activity-title">넓은 하늘로 패러글라이딩</h2>
+      <h2 class="activity-title">미술관 안내 책자 속으로...</h2>
       <p class="activity-date">2025.08.02. ~ 2025.08.03.</p>
-      <a class="activity-join">시작하기</a>
+      <a class="activity-join" href="./Portfolio-pages/art.html">감상하기</a>
     </div>
     <div id="ducks" class="activity">
       <h2 class="activity-title">귀여운 오리 구경</h2>
       <p class="activity-date">2025.11.02. ~ 2025.11.03.</p>
-      <a class="activity-join">마감</a>
+      <a class="activity-join">감상하기</a>
     </div>
     <div id="versailles" class="activity">
       <h2 class="activity-title">루이 14세의 베르사이유 궁전</h2>
       <p class="activity-date">2025.11.15. ~ 2025.11.16.</p>
-      <a class="activity-join">시작하기</a>
+      <a class="activity-join">감상하기</a>
     </div>
 
 
