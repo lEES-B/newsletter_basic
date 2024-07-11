@@ -8,7 +8,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
+      .card {
+        /* 배경 이미지 넣기 */
+        background-image: url('/Images/dog.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
+        /* 그라데이션 효과(배경이미지처럼 사용) */
+        /* https://cssgradient.io/  */
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0));
+        
+        
+        /* 반투명한 그라데이션 위에 이미지 합치기 (자주 쓰임)*/
+        background-image: 
+          linear-gradient(90deg, rgba(159, 84, 209, 0.9) 20%, rgba(159, 84, 209, 0.1)),
+          url('/Images/dog.png');
+        
+        /* 그림자 효과 - 가로PX 세로PX 흐림효과PX 퍼지는크기PX 색깔 */
+        /* https://cssgenerator.org/box-shadow-css-generator.html */
+        box-shadow: 10px 15px 20px 5px rgba(0, 0, 0, 0.4);
+        
+        color: #ffffff;
+        line-height: 1.7;
+        margin: 40px auto;
+        padding: 40px;
+        width: 280px;
+        height: 150px;
+         /* linear-gradient(90deg, rgba(0, 0, 0, 1) 40%), */
+      }
+      .button {
+        background-color: #f13030;
+        opacity: 0.5;   /* 요소 전체를 불투명하게 적용 */
+        padding: 6px 16px;
+        width: 30px;
+      }
+      .button > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 800;
+      }
+
+
+
+      #desert {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('./Images/entry04.png');
+}
+
+#paragliding {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('./Images/entry03.png');
+}
+
+#ducks {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('./Images/entry02.png');
+}
+
+#versailles {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('./Images/entry01.png');
+}
+
+.activity {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 185px;
+  margin: 24px auto;
+  padding: 40px;
+  width: 520px;
+}
+
+.activity-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 0;
+}
+
+.activity-date {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.activity-join {
+  background: rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 22px 0;
+  padding: 8px 24px;
+}
+      
     </style>
   </head>
 
@@ -17,6 +112,30 @@
       <h1 style="color: #ffffff; font-weight: 300">Weekly <span style="font-weight: 700">Codeit<span></h1>
       <p style="color: #c1b7ff">금요일에 만나는 코딩 한 스푼.</p>
     </div>
+
+    <div id="desert" class="activity">
+      <h2 class="activity-title">낙타와 함께하는 사막 여행</h2>
+      <p class="activity-date">2025.07.26. ~ 2025.07.27.</p>
+      <a class="activity-join">시작하기</a>
+    </div>
+    <div id="paragliding" class="activity">
+      <h2 class="activity-title">넓은 하늘로 패러글라이딩</h2>
+      <p class="activity-date">2025.08.02. ~ 2025.08.03.</p>
+      <a class="activity-join">시작하기</a>
+    </div>
+    <div id="ducks" class="activity">
+      <h2 class="activity-title">귀여운 오리 구경</h2>
+      <p class="activity-date">2025.11.02. ~ 2025.11.03.</p>
+      <a class="activity-join">마감</a>
+    </div>
+    <div id="versailles" class="activity">
+      <h2 class="activity-title">루이 14세의 베르사이유 궁전</h2>
+      <p class="activity-date">2025.11.15. ~ 2025.11.16.</p>
+      <a class="activity-join">시작하기</a>
+    </div>
+
+
+
     <div style="padding: 40px 20px">
       <div style="width: 560px; margin: 0 auto">
         <img src="./images/thumbnail-unix.png" style="width: 100%">
@@ -85,6 +204,13 @@
           빈 칸에 들어갈 다섯 글자를 답장으로 보내주세요.<br>
           선착순 200분께 코드잇 시그니쳐 굿즈를 보내드려요.
         </p>
+        <div class="card" style="text-align: left;"> 
+          <h4>퀴즈퀴즈</h4>
+          <p>응모해보세요~</p>
+          <div class="button">
+            <a href="">응모하기</a>
+          </div>
+        </div>
       </div>
     </div>
     <div style="background-color: #46415a; color: #ffffff; text-align: center; padding: 40px 20px">
