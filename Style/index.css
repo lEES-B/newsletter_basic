@@ -1,3 +1,4 @@
+/* 전체 적용 */
 * {
     box-sizing: border-box;
 }
@@ -6,4 +7,102 @@ body {
     color: #4d4b53; 
     font-family: Poppins, 'Noto Sans KR', sans-serif; 
     text-align: center; 
+}
+
+/* header */
+header {
+    background-color: #703fda; 
+    color: #ffffff; 
+    padding: 96px 0 0;
+}
+header h1 {
+    color: #a196e7; 
+    font-size: 24px; 
+    font-weight: 500; 
+    margin: 16px 0;
+}
+header > h1 > span {
+    font-weight: 900
+}
+header > p {
+    font-size: 36px; 
+    margin: 16px 0
+}
+header > p > span {
+    font-size: 72px; 
+    font-weight: 700;
+}
+header > p > span > span {
+    color: #f6c8f0
+}
+
+/* login button */
+.login-btn {
+    width: 60px;
+    height: 40px;
+    background-color: #f6c8f0;
+    border: none;
+    border-radius: 20%;
+    font-size: 15px;
+    font-weight: 700;
+}
+.login-btn a {
+    text-decoration: none;
+}
+
+/* 본문 */
+.first-sec {
+    padding: 120px 60px;
+}
+.first-sec h2 {
+    font-size: 24px; 
+    font-weight: 300;
+}
+.first-sec h2 span {
+    font-size: 32px; 
+    font-weight: 700
+}
+.first-sec p {
+    color: #a8a9c1;
+}
+.first-sec p span {
+    font-weight: 700;
+}
+.first-sec p a {
+    color: #7844e8; 
+    font-weight: 700;
+}
+
+.second-sec {
+    background-color: #f6f6fb;
+}
+.second-sec div {
+    width: 640px; 
+    padding: 120px 30px; 
+    margin: 0 auto;
+}
+.second-sec div h2{
+    font-size: 24px; 
+    font-weight: 300;
+}
+.second-sec div h2 span{
+    font-size: 32px; 
+    font-weight: 700;
+}
+.second-sec div p{
+    background-color: #ffffff;
+    text-align: left; 
+    padding: 24px; 
+    margin: 32px 0;
+}
+.second-sec div p span {
+    color: #b8b7ba
+}
+.link-blog {
+    background-color: #f6f6fb;
+    padding: 90px;
+}
+.link-blog a {
+    /* color: #7844e8; */
+    color: red;
 }
