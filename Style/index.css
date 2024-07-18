@@ -9,6 +9,33 @@ body {
     text-align: center; 
 }
 
+/* nav */
+.gnb {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  #logo {
+    height: 20px;
+  }
+  
+  ul.menu {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+  }
+  
+  ul.menu > li {
+    margin: 16px;
+    display: inline-block;
+  }
+  
+  .gnb,
+  .main {
+    padding: 16px;
+  }
+
+
+
 /* header */
 header {
     background-color: #703fda; 
@@ -17,7 +44,7 @@ header {
 }
 header h1 {
     color: #a196e7; 
-    font-size: 24px; 
+    font-size: 20px; 
     font-weight: 500; 
     margin: 16px 0;
 }
@@ -25,11 +52,11 @@ header > h1 > span {
     font-weight: 900
 }
 header > p {
-    font-size: 36px; 
+    font-size: 28px; 
     margin: 16px 0
 }
 header > p > span {
-    font-size: 72px; 
+    font-size: 70px; 
     font-weight: 700;
 }
 header > p > span > span {
