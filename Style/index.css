@@ -90,15 +90,3 @@ header > p > span > span {
     color: #ffffff; 
     padding: 56px 28px;
 }
-.third-sec div {
-    margin: 32px auto;
-}
-.third-sec div a {
-    background-color: #ffffff; 
-    padding: 16px 40px; 
-    color: #7844e8; 
-    font-weight: 600; 
-    border-radius: 999px; 
-    text-decoration: none;
-}
-

@@ -63,3 +63,19 @@ footer {
   font-size: 13px;
   font-weight: 200;
 }
+.contact-btn {
+  margin: auto;
+  padding: 10px 30px; 
+  width: 120px;
+  background-color: #ffffff; 
+  border-radius: 999px; 
+}
+.contact-btn a {
+  color: #7844e8; 
+  font-weight: 800; 
+}
+.contact-btn a:hover {
+  color: #ee3ac1; 
+  font-weight: 900;
+  text-decoration: none;
+}
