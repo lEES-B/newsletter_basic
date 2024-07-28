@@ -1,0 +1,64 @@
+/* 전체 적용 */
+* {
+    box-sizing: border-box;
+  }
+  body {
+      font-family: Poppins, 'Noto Sans KR', sans-serif;
+      margin: 0 0 140px;
+      text-align: center;
+      height: 100%;
+      max-height: 100%;
+      min-height: 100%;
+  }
+  a:link, a:visited, a:active {
+      color: #ffffff;
+      text-decoration: none;
+  } 
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  /* nav */
+  .nav {
+    border-bottom: 1px solid #dddddd;
+  }    
+  #logo {
+    height: 30px;
+  } 
+  ul.menu {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+  } 
+  ul.menu > li {
+    margin: 16px;
+    display: inline-block;
+  }
+  ul.menu > li > a {
+    text-decoration: none;
+    color: #a8a9c1;
+  }
+  .active {
+    color: #703fda !important; 
+  }
+  .active:hover {
+    cursor: none;
+  }
+  .nav,
+  .main {
+    padding: 16px;
+  }
+  
+/* footer */
+footer {
+    /* padding: 40px 0 20px; */
+    background-color: #46415a; 
+    color: #ffffff; 
+    text-align: center;
+    font-size: 14px;
+}
+.footer-rights {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 13px;
+}

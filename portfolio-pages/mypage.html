@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>이새봄</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Style/mypage.css">
+      <title>SAEBOM's Portfolio</title>
+      <meta charset="utf-8" /> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        
+      <meta property="og:title" content="SAEBOM's Portfolio!">
+      <meta name="description" content="세련되고 정교한 SAEBOM's Portfolio 모음집."> 
+      <meta property="og:url" content="https://sb-lee.tistory.com/" />
+      <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+      <meta property="og:description" content="센스있고 능력있는 성실한 인재상" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+      <link rel="stylesheet" href="/Style/_common.css">
+      <link rel="stylesheet" href="/Style/mypage.css">
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9MEHKXW49"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Y9MEHKXW49');
+      </script>
   </head>
   <body>
-    <div class="container">
-      <img class="profile" src="손흥민.png" alt="나의 프로필 사진" />
-      <h1 class="fullname">이새봄</h1>
-      <a class="item" href="https://www.instagram.com/hm_son7/">Instagram</a>
-      <a class="item" href="https://www.facebook.com/HeungMinSonOfficial">Facebook</a>
-      <a class="item" href="https://twitter.com/Sonny7">Twitter</a>
-    </div>
+    <nav class="nav">
+      <img id="logo" src="/Images/dog.png" alt="로고 이미지">
+      <ul class="menu">
+        <li>
+          <a href="/">Intro</a>
+        </li>
+        <li class="active">
+          <a class="active">Arts</a>
+        </li>
+        <li>
+          <a href="Portfolio-pages/mypage.html">About</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <header>
+        <img class="profile" src="/Images/여권사진.jpg" alt="나의 프로필 사진" />
+        <h1 class="fullname">이새봄</h1>
+      </header>
+      <section class="container">
+        <a class="item" href="https://www.instagram.com/hm_son7/">Instagram</a>
+        <a class="item" href="https://www.facebook.com/HeungMinSonOfficial">Facebook</a>
+        <a class="item" href="https://twitter.com/Sonny7">Twitter</a>
+        <a class="item" href="https://sb-lee.tistory.com/"> 기술 블로그</a>
+      </section>
+    </main>
   </body>
 </html>

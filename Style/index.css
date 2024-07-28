@@ -1,41 +1,3 @@
-/* 전체 적용 */
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    color: #4d4b53; 
-    font-family: Poppins, 'Noto Sans KR', sans-serif; 
-    text-align: center; 
-}
-
-/* nav */
-.gnb {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  #logo {
-    height: 20px;
-  }
-  
-  ul.menu {
-    display: inline-block;
-    margin: 0;
-    list-style: none;
-  }
-  
-  ul.menu > li {
-    margin: 16px;
-    display: inline-block;
-  }
-  
-  .gnb,
-  .main {
-    padding: 16px;
-  }
-
-
-
 /* header */
 header {
     background-color: #703fda; 
@@ -61,20 +23,6 @@ header > p > span {
 }
 header > p > span > span {
     color: #f6c8f0
-}
-
-/* login button */
-.login-btn {
-    width: 60px;
-    height: 40px;
-    background-color: #f6c8f0;
-    border: none;
-    border-radius: 20%;
-    font-size: 15px;
-    font-weight: 700;
-}
-.login-btn a {
-    text-decoration: none;
 }
 
 /* 본문 */
