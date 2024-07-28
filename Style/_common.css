@@ -1,6 +1,7 @@
 /* 전체 적용 */
 * {
     box-sizing: border-box;
+    word-break: keep-all;
   }
   body {
       font-family: Poppins, 'Noto Sans KR', sans-serif;
