@@ -31,12 +31,12 @@
     list-style: none;
   } 
   ul.menu > li {
-    margin: 16px;
+    margin: 10px 25px;
     display: inline-block;
   }
   ul.menu > li > a {
-    text-decoration: none;
     color: #a8a9c1;
+    text-decoration: none;
   }
   .active {
     color: #703fda !important; 
@@ -51,14 +51,15 @@
   
 /* footer */
 footer {
-    /* padding: 40px 0 20px; */
-    background-color: #46415a; 
-    color: #ffffff; 
-    text-align: center;
-    font-size: 14px;
+  padding: 32px 16px;
+  background-color: #46415a; 
+  color: #ffffff; 
+  text-align: center;
+  font-size: 15px;
 }
 .footer-rights {
-    margin-top: 25px;
-    margin-bottom: 0;
-    font-size: 13px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 200;
 }
